@@ -1,4 +1,6 @@
-import styles from  './App.modules.css';
+import { Nabvar } from '../components/Nabvar/Nabvar';
+import styles from  './App.module.css';
+
 
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
 
   return (
     <div className={styles.App}>
-     hola mundo
+     <Nabvar/>
     </div>
   )
 }
