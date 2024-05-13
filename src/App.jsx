@@ -1,4 +1,4 @@
-import { Nabvar } from '../components/Nabvar/Nabvar';
+import { Nabvar } from './components/Nabvar/Nabvar';
 import styles from  './App.module.css';
 
 
