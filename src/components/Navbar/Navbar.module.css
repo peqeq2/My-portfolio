@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.navbar{
+.navbar {
   position: relative;
   display: flex;
   align-items: center;
@@ -10,19 +10,23 @@
   margin: 0 10%;
 }
 
-.title{
+.title {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
 }
 
-.menu{
-  display: flex;
 
+.menuBtn {
+  display: none;
 }
 
-.menuItems{
+.menu {
+  display: flex;
+}
+
+.menuItems {
   display: flex;
   gap: 47px;
   list-style: none;
@@ -34,14 +38,13 @@
   text-decoration: none;
 }
 
-
 @media screen and (max-width: 830px) {
-  .navbar{
+  .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .menu{
+  .menu {
     position: absolute;
     right: 0;
     margin-right: 10%;
@@ -51,7 +54,7 @@
     z-index: 3;
   }
 
-  .menuBtn{
+  .menuBtn {
     display: block;
     cursor: pointer;
   }

@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container{
+.container {
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
@@ -11,34 +11,32 @@
   margin-right: 10%;
 }
 
-.title{
+.title {
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
-.aboutImage{
+.aboutImage {
   width: 35%;
 }
 
-.aboutItems{
+.aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.aboutItem{
+.aboutItem {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,45 +51,41 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
-
 }
 
-.aboutItem:hover{
+.aboutItem:hover {
   background-size: 100% 100%;
 }
 
-.aboutItem h3{
+.aboutItem h3 {
   font-size: 25px;
   font-weight: 600;
 }
 
-.aboutItem p{
+.aboutItem p {
   font-size: 25px;
-
 }
 
 @media screen and (max-width: 830px) {
-  .container{
+  .container {
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
-
   }
 
-  .content{
+  .content {
     flex-direction: column;
   }
 
-  .aboutImage{
+  .aboutImage {
     display: none;
-
   }
 
-  .aboutItems{
+  .aboutItems {
     margin-top: 29px;
   }
 
-  .aboutItem{
+  .aboutItem {
     padding-left: 0;
     padding-right: 0;
   }

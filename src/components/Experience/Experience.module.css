@@ -1,13 +1,13 @@
 @import "../../vars.css";
 
-.container{
+.container {
   color: var(--color-text);
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.title{
+.title {
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
@@ -15,28 +15,28 @@
   text-transform: uppercase;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 14px;
 }
 
-.skills{
+.skills {
   width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 11px;
+  gap: 37px;
 }
 
-.skill{
+.skill {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 11px;
 }
 
-.skillImageContainer{
+.skillImageContainer {
   background-color: var(--color-secondary);
   border-radius: 100%;
   display: flex;
@@ -52,7 +52,7 @@
 
 .skill p {
   font-size: 25px;
-  font-family: var(--color-roboto);
+  font-family: var(--font-roboto);
   font-weight: 500;
 }
 
