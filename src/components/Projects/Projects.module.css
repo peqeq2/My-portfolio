@@ -5,6 +5,15 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  padding: 20px;
+  background-color: var(--color-background);
+  border-radius: 15px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px);
 }
 
 .title {
@@ -12,6 +21,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .projects {
