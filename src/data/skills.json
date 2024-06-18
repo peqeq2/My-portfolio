@@ -18,5 +18,17 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Rails",
+    "imageSrc": "skills/RubyRails.png"
+  },
+  {
+    "title": "Github",
+    "imageSrc": "skills/github.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
   }
 ]
