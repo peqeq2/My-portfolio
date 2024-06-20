@@ -6,14 +6,9 @@
   margin-left: 10%;
   margin-right: 10%;
   padding: 20px;
-  background-color: var(--color-background);
+  background-color: var(--color-bg); /* Usando el color de fondo de la paleta */
   border-radius: 15px;
-
   transition: transform 0.3s ease-in-out;
-}
-
-.container:hover {
-  transform: translateY(-5px);
 }
 
 .title {

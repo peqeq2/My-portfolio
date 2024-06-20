@@ -17,8 +17,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I&apos;m a frontend developer with experience in building responsive
-                and optimized sites
+                I have been focusing on frontend development, creating responsive and optimized websites.
               </p>
             </div>
           </li>
@@ -27,18 +26,16 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I also have experience developing efficient backend systems and APIs.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Passionate Learner</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I&apos;m passionate about learning new technologies and frameworks to expand my skills as a full-stack developer
               </p>
             </div>
           </li>

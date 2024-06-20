@@ -1,12 +1,13 @@
 @import "../../vars.css";
 
+
 .container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 49px;
-  z-index: 1;
+  margin-bottom: 29px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -16,7 +17,6 @@
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
-  z-index: 1;
 }
 
 .title {
@@ -24,17 +24,13 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .description {
-  font-size: 30px;
+  font-size: 28px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -43,19 +39,24 @@
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
-  border-radius: 100px;
+  border-radius: 15px;
   font-size: 30px;
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contactBtn:hover {
+  transform: scale(1.05);
 }
 
 .heroImg {
   width: 30%;
   border-radius: 50%;
-
+  border: 3px solid var(--color-primary);
+  position: relative;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -74,32 +75,31 @@
   }
 }
 
-.topBlur {
+.callToAction {
   position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+  bottom: -45px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  animation-name: moveText;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
 }
 
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+.callToActionText {
+  font-size: 24px;
+  color: var(--color-text);
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 @media screen and (max-width: 830px) {
