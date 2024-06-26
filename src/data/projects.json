@@ -2,24 +2,24 @@
   {
     "title": "To Do App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "TodoApp is a simple application built with React, leveraging custom hooks and the powerful useReducer for efficient state management, manage your personal to-do list",
+    "skills": ["React", "Javascript", "Bootstrap"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Gift Expert",
+    "title": "Gif Expert",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "Gif Expert App is a React-based application developed with JavaScript, utilizing an API to dynamically fetch gifs. find your favorite gifs",
+    "skills": ["React", "Javascript", "Bootstrap"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
     "title": "Weather App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "WeatherApp is a React-based weather application powered by a weather API, delivering real-time weather information with simplicity and clarity",
+    "skills": ["React", "Javascript"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
