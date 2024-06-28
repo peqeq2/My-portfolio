@@ -1,26 +1,26 @@
 [
   {
     "title": "To Do App",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/todo.png",
     "description": "TodoApp is a simple application built with React, leveraging custom hooks and the powerful useReducer for efficient state management, manage your personal to-do list",
     "skills": ["React", "Javascript", "Bootstrap"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://youtu.be/opIXgNADjS8",
+    "source": "https://github.com/peqeq2/todo-list"
   },
   {
     "title": "Gif Expert",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/gifexpert.png",
     "description": "Gif Expert App is a React-based application developed with JavaScript, utilizing an API to dynamically fetch gifs. find your favorite gifs",
     "skills": ["React", "Javascript", "Bootstrap"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://youtu.be/qL5js-cY7Os",
+    "source": "https://github.com/peqeq2/react-gifexpert"
   },
   {
     "title": "Weather App",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/weatherapp.png",
     "description": "WeatherApp is a React-based weather application powered by a weather API, delivering real-time weather information with simplicity and clarity",
     "skills": ["React", "Javascript"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://youtu.be/Qg9Va0SGiNc",
+    "source": "https://github.com/peqeq2/weather-app"
   }
 ]
