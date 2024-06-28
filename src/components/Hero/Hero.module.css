@@ -82,14 +82,14 @@
   width: 100%;
   text-align: center;
   animation-name: moveText;
-  animation-duration: 8s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
 }
 
 .callToActionText {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--color-text);
 }
 
