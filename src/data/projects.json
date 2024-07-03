@@ -2,7 +2,7 @@
   {
     "title": "To Do App",
     "imageSrc": "projects/todo.png",
-    "description": "TodoApp is a simple application built with React, leveraging custom hooks and the powerful useReducer for efficient state management, manage your personal to-do list",
+    "description": "This was my second application. It was more complex and used React features like useReducer, making it a great challenge. This project deepened my understanding of state management in React.",
     "skills": ["React", "Javascript", "Bootstrap"],
     "demo": "https://youtu.be/opIXgNADjS8",
     "source": "https://github.com/peqeq2/todo-list"
@@ -10,7 +10,7 @@
   {
     "title": "Gif Expert",
     "imageSrc": "projects/gifexpert.png",
-    "description": "Gif Expert App is a React-based application developed with JavaScript, utilizing an API to dynamically fetch gifs. find your favorite gifs",
+    "description": "This is my first application. Understanding fetch was challenging, but I mastered it by creating a custom hook. This project greatly improved my data fetching skills",
     "skills": ["React", "Javascript", "Bootstrap"],
     "demo": "https://youtu.be/qL5js-cY7Os",
     "source": "https://github.com/peqeq2/react-gifexpert"
@@ -18,9 +18,17 @@
   {
     "title": "Weather App",
     "imageSrc": "projects/weatherapp.png",
-    "description": "WeatherApp is a React-based weather application powered by a weather API, delivering real-time weather information with simplicity and clarity",
+    "description": "This is the latest application I've built. I aimed for simplicity, so I implemented everything in a single component, making it straightforward to develop. I plan to enhance the visuals in the future.",
     "skills": ["React", "Javascript"],
     "demo": "https://youtu.be/Qg9Va0SGiNc",
     "source": "https://github.com/peqeq2/weather-app"
+  },
+  {
+    "title": "PlanIt",
+    "imageSrc": "projects/planit.png",
+    "description": "Collaborated in a team of 4 to develop a web application for backpackers,simplifying trip planning with tripmates using Ruby on Rails, APIs, Pundit forauthentication, and deployed on Heroku.",
+    "skills": ["Ruby", "RubyonRails"],
+    "demo": "https://www.youtube.com/watch?v=atUranIWFDE&t=562s",
+    "source": "https://github.com/Niantba/PlanIt"
   }
 ]
